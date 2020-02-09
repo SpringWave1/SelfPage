@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/post/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/publication/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/</loc>
+  </url>
+  
+</urlset>
