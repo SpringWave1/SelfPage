@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.zhaojuntao.site/post/hugo-book/</loc>
+    <lastmod>2020-02-13T11:37:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/post/</loc>
+    <lastmod>2020-02-13T11:37:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/</loc>
+    <lastmod>2020-02-13T11:37:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/post/hugo-use/</loc>
+    <lastmod>2020-02-13T10:41:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.zhaojuntao.site/authors/admin/</loc>
   </url>
   
@@ -12,10 +42,6 @@
   
   <url>
     <loc>http://www.zhaojuntao.site/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/post/</loc>
   </url>
   
   <url>
@@ -32,10 +58,6 @@
   
   <url>
     <loc>http://www.zhaojuntao.site/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/</loc>
   </url>
   
 </urlset>

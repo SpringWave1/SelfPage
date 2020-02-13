@@ -5,12 +5,47 @@
     <link>http://www.zhaojuntao.site/post/</link>
       <atom:link href="http://www.zhaojuntao.site/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 13 Feb 2020 11:37:20 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>http://www.zhaojuntao.site/post/</link>
     </image>
+    
+    <item>
+      <title>Hugo Book</title>
+      <link>http://www.zhaojuntao.site/post/hugo-book/</link>
+      <pubDate>Thu, 13 Feb 2020 11:37:20 +0800</pubDate>
+      <guid>http://www.zhaojuntao.site/post/hugo-book/</guid>
+      <description>&lt;p&gt;After experiment on the gitbook, docify, we still choose hugo for documentation.
+The scene use for documentation is 
+&lt;a href=&#34;https://themes.gohugo.io/hugo-book/&#34; title=&#34;Hogo Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;book&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;create-site&#34;&gt;Create Site&lt;/h3&gt;
+&lt;p&gt;Create site and add theme&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo new site mydocs; cd mydocs
+git init
+git submodule add https://github.com/alex-shpak/hugo-book themes/book
+cp -R themes/book/exampleSite/content .
+hugo server --minify --theme book
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;All the related information could be found in example page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hugo Use</title>
+      <link>http://www.zhaojuntao.site/post/hugo-use/</link>
+      <pubDate>Thu, 13 Feb 2020 10:41:29 +0800</pubDate>
+      <guid>http://www.zhaojuntao.site/post/hugo-use/</guid>
+      <description>&lt;h3 id=&#34;creation-of-content&#34;&gt;Creation of Content&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo new  --kind post post/my-article-name
+hugo new  --kind project project/my-project-name
+hugo new  --kind talk talk/my-talk-name
+hugo new --kind publication publication/&amp;lt;my-publication&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;content-edit&#34;&gt;Content Edit&lt;/h3&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
