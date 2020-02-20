@@ -1,80 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tony Zhao&#39;s Page</title>
-    <link>http://www.zhaojuntao.site/</link>
-      <atom:link href="http://www.zhaojuntao.site/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tony Zhao&#39;s Page</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 16 Feb 2020 11:36:24 +0800</lastBuildDate>
+    <title>学习笔记 | Tony Zhao&#39;s Page</title>
+    <link>http://www.zhaojuntao.site/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <atom:link href="http://www.zhaojuntao.site/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <description>学习笔记</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 14 Feb 2020 14:44:12 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Tony Zhao&#39;s Page</title>
-      <link>http://www.zhaojuntao.site/</link>
+      <title>学习笔记</title>
+      <link>http://www.zhaojuntao.site/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
     </image>
-    
-    <item>
-      <title>web4</title>
-      <link>http://www.zhaojuntao.site/post/web4/</link>
-      <pubDate>Sun, 16 Feb 2020 11:36:24 +0800</pubDate>
-      <guid>http://www.zhaojuntao.site/post/web4/</guid>
-      <description>&lt;h3 id=&#34;http的缺点&#34;&gt;HTTP的缺点&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;明文通信，可能被窃听
-&lt;ul&gt;
-&lt;li&gt;抓取互联网上流动的数据包：抓包 packet Capture 或者嗅探器 Sniffer 工具&lt;/li&gt;
-&lt;li&gt;用SSL建立安全的通信线路&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;不验证身份，可能遭伪装
-&lt;ul&gt;
-&lt;li&gt;服务器可以伪装&lt;/li&gt;
-&lt;li&gt;无意义的请求也照单全收 DNS&lt;/li&gt;
-&lt;li&gt;SSL 可以查明对手证书&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;无法验证报文完整，可能丢失
-&lt;ul&gt;
-&lt;li&gt;man in middle attack&lt;/li&gt;
-&lt;li&gt;MD5 和 SHA，数字签名&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;HTTP+通信加密+证书+完整性保护 = HTTPS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;https&#34;&gt;HTTPS&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;https 应用层和 TCP/IP 之间加了一层 SSL&lt;/li&gt;
-&lt;li&gt;密钥发送问题
-&lt;ul&gt;
-&lt;li&gt;发送密钥：有窃听风险&lt;/li&gt;
-&lt;li&gt;不发送：对方不能解密&lt;/li&gt;
-&lt;li&gt;正确发送：那内容也能发送了&lt;/li&gt;
-&lt;li&gt;所以非对称
-&lt;ul&gt;
-&lt;li&gt;发送密文的用对方的公开密钥进行加密&lt;/li&gt;
-&lt;li&gt;对方用自己的私钥进行解密&lt;/li&gt;
-&lt;li&gt;但是恢复原文是非常困难的&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;HTTPS 使用混合加密
-&lt;ul&gt;
-&lt;li&gt;确保共享密钥安全后使用共享密钥&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id=&#34;证书&#34;&gt;证书&lt;/h5&gt;
-&lt;p&gt;保证 public key 的正确性&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;使用证书证明公开密钥的正确性 CA&lt;/li&gt;
-&lt;li&gt;EV SSL 保证web服务的标准
-&lt;ul&gt;
-&lt;li&gt;防止钓鱼攻击&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>Web C3</title>
@@ -587,31 +523,6 @@
     </item>
     
     <item>
-      <title>Kaggle</title>
-      <link>http://www.zhaojuntao.site/post/kaggle/</link>
-      <pubDate>Thu, 13 Feb 2020 21:18:16 +0800</pubDate>
-      <guid>http://www.zhaojuntao.site/post/kaggle/</guid>
-      <description>&lt;h4 id=&#34;dogs-vs-cats&#34;&gt;Dogs Vs Cats&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://github.com/ypwhs/dogs_vs_cats&#34; title=&#34;Dog Vs Cat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition&#34; title=&#34;competition&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Competition&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Notes
-&lt;ul&gt;
-&lt;li&gt;os.symlink softlink (quick access)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;titanic&#34;&gt;Titanic&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.kaggle.com/c/titanic/notebooks&#34; title=&#34;note book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Codes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Web 学习笔记1</title>
       <link>http://www.zhaojuntao.site/post/web/</link>
       <pubDate>Thu, 13 Feb 2020 12:42:48 +0800</pubDate>
@@ -737,59 +648,6 @@
 &lt;li&gt;片段标识符：子资源&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;不遵照 RFC 标准的服务无法被访问&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hugo Book</title>
-      <link>http://www.zhaojuntao.site/post/hugo-book/</link>
-      <pubDate>Thu, 13 Feb 2020 11:37:20 +0800</pubDate>
-      <guid>http://www.zhaojuntao.site/post/hugo-book/</guid>
-      <description>&lt;p&gt;After experiment on the gitbook, docify, we still choose hugo for documentation.
-The scene use for documentation is 
-&lt;a href=&#34;https://themes.gohugo.io/hugo-book/&#34; title=&#34;Hogo Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;book&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;create-site&#34;&gt;Create Site&lt;/h3&gt;
-&lt;p&gt;Create site and add theme&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo new site mydocs; cd mydocs
-git init
-git submodule add https://github.com/alex-shpak/hugo-book themes/book
-cp -R themes/book/exampleSite/content .
-hugo server --minify --theme book
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;All the related information could be found in example page.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hugo Use</title>
-      <link>http://www.zhaojuntao.site/post/hugo-use/</link>
-      <pubDate>Thu, 13 Feb 2020 10:41:29 +0800</pubDate>
-      <guid>http://www.zhaojuntao.site/post/hugo-use/</guid>
-      <description>&lt;h3 id=&#34;creation-of-content&#34;&gt;Creation of Content&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo new  --kind post post/my-article-name
-hugo new  --kind project project/my-project-name
-hugo new  --kind talk talk/my-talk-name
-hugo new --kind publication publication/&amp;lt;my-publication&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;content-edit&#34;&gt;Content Edit&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>http://www.zhaojuntao.site/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>http://www.zhaojuntao.site/privacy/</guid>
-      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>http://www.zhaojuntao.site/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>http://www.zhaojuntao.site/terms/</guid>
-      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
 </description>
     </item>
     

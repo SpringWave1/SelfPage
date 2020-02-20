@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="RA of SFNNEKS">
+  <meta name="description" content="基础知识介绍 TCP/IP DNS URL/URI">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://www.zhaojuntao.site/tags/">
+  <link rel="alternate" hreflang="en-us" href="http://www.zhaojuntao.site/post/web/">
 
   
 
@@ -210,14 +210,12 @@
 
 
   
-  <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="Tony Zhao&#39;s Page">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="http://www.zhaojuntao.site/tags/">
+  <link rel="canonical" href="http://www.zhaojuntao.site/post/web/">
 
   
   
@@ -231,18 +229,63 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Tony Zhao&#39;s Page">
-  <meta property="og:url" content="http://www.zhaojuntao.site/tags/">
-  <meta property="og:title" content="Tags | Tony Zhao&#39;s Page">
-  <meta property="og:description" content="RA of SFNNEKS"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="http://www.zhaojuntao.site/post/web/">
+  <meta property="og:title" content="Web 学习笔记1 | Tony Zhao&#39;s Page">
+  <meta property="og:description" content="基础知识介绍 TCP/IP DNS URL/URI"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-02-14T14:44:12&#43;08:00">
+    
+      <meta property="article:published_time" content="2020-02-13T12:42:48&#43;08:00">
+    
+    <meta property="article:modified_time" content="2020-02-13T12:42:48&#43;08:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://www.zhaojuntao.site/post/web/"
+  },
+  "headline": "Web 学习笔记1",
+  
+  "datePublished": "2020-02-13T12:42:48+08:00",
+  "dateModified": "2020-02-13T12:42:48+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Juntao Zhao"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tony Zhao's Page",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://www.zhaojuntao.site/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "基础知识介绍 TCP/IP DNS URL/URI"
+}
+</script>
+
+  
 
   
 
@@ -250,10 +293,13 @@
   
 
 
+  
 
 
 
-  <title>Tags | Tony Zhao&#39;s Page</title>
+
+
+  <title>Web 学习笔记1 | Tony Zhao&#39;s Page</title>
 
 </head>
 
@@ -501,65 +547,444 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <article class="article">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>Web 学习笔记1</h1>
+
+  
+  <p class="page-subtitle">基础知识介绍 TCP/IP DNS URL/URI</p>
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Tags</h1>
+
+
+<div class="article-metadata">
 
   
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Feb 13, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="">学习笔记</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" >学习笔记</a></h2>
-      <div class="article-style">
-        
-      </div>
+    <div class="article-style">
+      <h3 id="http超文本传输协议">HTTP（超文本传输协议）</h3>
+<p>web 建立在 HTTP 上进行通信</p>
+<h4 id="三项-www-构建技术">三项 WWW 构建技术</h4>
+<ul>
+<li>HTML 页面文本标记语言
+<ul>
+<li>将 SGML（标准通用标记语言）作为页面</li>
+</ul>
+</li>
+<li>HTTP 文档传递协议
+<ul>
+<li>HTTP/1.0 是主流的协议版本</li>
+</ul>
+</li>
+<li>URL 指定文档所在地址</li>
+</ul>
+<h4 id="网络基础-tcpip">网络基础 TCP/IP</h4>
+<ul>
+<li>设备通信需要相同的规则，这被称为协议。</li>
+<li>tcp/ip 是互联网相关的各类协议族的总称
+<ul>
+<li>网络包括 WWW 以 TCP/IP 为基础运作，HTTP 属于其内部子集。</li>
+</ul>
+</li>
+</ul>
+<h5 id="分层管理">分层管理</h5>
+<p>TCP/IP 分为应用层/传输层/网络层和数据链接层</p>
+<ul>
+<li>应用层
+<ul>
+<li>向用户提供应用服务时通信的活动</li>
+<li>预存了各类通用的应用服务： FTP(File transfer protocol) 文件传输协议， DNS（Domain name system） 域名系统服务</li>
+<li>HTTP 协议处在该层</li>
+</ul>
+</li>
+<li>传输层
+<ul>
+<li>提供处于网络连接中的两台计算机的数据传输</li>
+<li>TCP(transmission control protocol) 传输控制协议, UDP(user data protocol) 用户数据报协议</li>
+</ul>
+</li>
+<li>网络层
+<ul>
+<li>处理在网络上流动的数据包。数据包是网络传输的最小单位。</li>
+<li>该层规定（选择）了传输路线</li>
+</ul>
+</li>
+<li>链路层
+<ul>
+<li>硬件部分</li>
+</ul>
+</li>
+</ul>
+<p><img src="process.png" alt="流程" title="流程"></p>
+<h6 id="例子">例子</h6>
+<ul>
+<li>客户端在应用层发出 HTTP 请求</li>
+<li>传输层把HTTP请求报文（数据）进行分割，并打上标记和端口号</li>
+<li>网络层（IP 协议） 增加作为通信目的地的 Mac 地址</li>
+<li>发送端每一层在传输时会打上首部信息，接收端会去掉。（封装）</li>
+</ul>
+<h4 id="ip--tcp--dns">IP / TCP / DNS</h4>
+<h5 id="ip">IP</h5>
+<ul>
+<li>IP(internet protocol)位于网络层. IP 是一种协议的名称，和IP地址不同。</li>
+<li>保证数据传输需要 IP 和 MAC
+<ul>
+<li>IP 指明了节点被分配到的地址</li>
+<li>MAC 是网卡所属的固定地址</li>
+<li>IP 可换，MAC 基本不会改</li>
+</ul>
+</li>
+<li>IP 通信依赖MAC，会用使用中转设备寻找目标
+<ul>
+<li>使用 ARP （address resolution protocol）来解析 ip 获得 mac</li>
+<li>中转设备不确定，使用路由选择，因此不知道具体细节</li>
+</ul>
+</li>
+</ul>
+<h5 id="tcp">TCP</h5>
+<ul>
+<li>TCP 属于传输层，提供字节流服务
+<ul>
+<li>byte stream service 将大块数据分割成 segment</li>
+<li>tcp 分割数据并确保数据最终传达</li>
+</ul>
+</li>
+<li>三次握手(three-way shaking)
+<ul>
+<li>使用了 TCP 的标志（flag） SYN（synchronize） 和 ACK (acknowledgement)</li>
+<li>发送 SYN / 返回 SYN/ACK / 发送 ACK
+<img src="three-shaking.png" alt="三次握手" title="三次握手"></li>
+</ul>
+</li>
+</ul>
+<h5 id="dns">DNS</h5>
+<ul>
+<li>位于应用层，提供域名到 ip 的解析服务</li>
+</ul>
+<p><img src="all-in.png" alt="全部" title="全部"></p>
+<h4 id="url--uri">URL / URI</h4>
+<ul>
+<li>URI uniform resource identifier
+<ul>
+<li>HTTP 的协议方案是 http</li>
+</ul>
+</li>
+<li>URI用字符串标识某一资源，URL标示资源地点（互联网上的位置）</li>
+</ul>
+<h5 id="uri-格式">URI 格式</h5>
+<p><img src="URI-typical.png" alt="URI范式" title="URI范式"></p>
+<ul>
+<li>协议类型，字母区分大小写，最后加：</li>
+<li>登录信息，可选项</li>
+<li>服务器地址，可ipv4 or v6 [0:0:0:0:0:0:0:1]</li>
+<li>端口号</li>
+<li>带层次的文件路径</li>
+<li>查询字符串</li>
+<li>片段标识符：子资源</li>
+</ul>
+<p>不遵照 RFC 标准的服务无法被访问</p>
+
     </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tags/%E7%BD%91%E7%BB%9C/" >网络</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
 
-  
+    
 
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="">学习笔记</a>
+  
+  <a class="badge badge-light" href="">网络</a>
+  
 </div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http://www.zhaojuntao.site/post/web/&amp;text=Web%20%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b01" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http://www.zhaojuntao.site/post/web/&amp;t=Web%20%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b01" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Web%20%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b01&amp;body=http://www.zhaojuntao.site/post/web/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http://www.zhaojuntao.site/post/web/&amp;title=Web%20%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b01" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Web%20%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b01%20http://www.zhaojuntao.site/post/web/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=http://www.zhaojuntao.site/post/web/&amp;title=Web%20%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b01" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="http://www.zhaojuntao.site/">Juntao Zhao</a></h5>
+      <h6 class="card-subtitle">RA of SFNNEKS</h6>
+      <p class="card-text">My Research Focusing on the application of the blockchain and cloud technology, also included the technology containing game development and brain computer interface.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/juntaozhao@link.cuhk.edu.cn" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/SpringWave1" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
 
       
 
