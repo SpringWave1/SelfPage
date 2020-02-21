@@ -688,6 +688,62 @@
 </ul>
 </li>
 </ul>
+<h5 id="https-通信">HTTPS 通信</h5>
+<ol>
+<li>Client:HandShake:Client Hello</li>
+<li>Server
+<ol>
+<li>HandShake:Server Hello</li>
+<li>HandShake:Certificate</li>
+<li>HandShake:Server Hello Done (End signal)</li>
+</ol>
+</li>
+<li>CLient
+<ol>
+<li>Client key Exchange. Pre master encrypted</li>
+<li>Change Cipher Spec. The info after this will use premaster secret to encrypt</li>
+<li>Finished: 所有的报文的校验都在里面。这次握手协商能够成功，要以服务器能否正确解密作为判断</li>
+</ol>
+</li>
+<li>Server
+<ol>
+<li>Change Cipher Spec</li>
+<li>Finished</li>
+</ol>
+</li>
+<li>SSL 到此建立完成</li>
+<li>APP data in and out (HTTP)
+<ol>
+<li>with MAC(message authentication code) 防篡改</li>
+</ol>
+</li>
+<li>close notify</li>
+</ol>
+<h5 id="https-坏处">HTTPS 坏处</h5>
+<ul>
+<li>变慢</li>
+<li>高耗能</li>
+</ul>
+<h5 id="认证">认证</h5>
+<p>HTTP 的认证方式</p>
+<ul>
+<li>BASIC 认证
+<ul>
+<li>发送请求，401， 用户ID和密码以 Base64 返回</li>
+<li>认证成功返回200</li>
+<li>被盗可能性极高，并且难以注销</li>
+</ul>
+</li>
+<li>DIGEST 认证
+<ul>
+<li>发送质询码。从而改变加密后的文字</li>
+<li>无法防止用户伪装</li>
+</ul>
+</li>
+<li>
+<h2 id="ssl-客户端认证">SSL 客户端认证</h2>
+</li>
+</ul>
 
     </div>
 

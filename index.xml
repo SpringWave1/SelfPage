@@ -73,6 +73,62 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h5 id=&#34;https-通信&#34;&gt;HTTPS 通信&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;Client:HandShake:Client Hello&lt;/li&gt;
+&lt;li&gt;Server
+&lt;ol&gt;
+&lt;li&gt;HandShake:Server Hello&lt;/li&gt;
+&lt;li&gt;HandShake:Certificate&lt;/li&gt;
+&lt;li&gt;HandShake:Server Hello Done (End signal)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;CLient
+&lt;ol&gt;
+&lt;li&gt;Client key Exchange. Pre master encrypted&lt;/li&gt;
+&lt;li&gt;Change Cipher Spec. The info after this will use premaster secret to encrypt&lt;/li&gt;
+&lt;li&gt;Finished: 所有的报文的校验都在里面。这次握手协商能够成功，要以服务器能否正确解密作为判断&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Server
+&lt;ol&gt;
+&lt;li&gt;Change Cipher Spec&lt;/li&gt;
+&lt;li&gt;Finished&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;SSL 到此建立完成&lt;/li&gt;
+&lt;li&gt;APP data in and out (HTTP)
+&lt;ol&gt;
+&lt;li&gt;with MAC(message authentication code) 防篡改&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;close notify&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;https-坏处&#34;&gt;HTTPS 坏处&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;变慢&lt;/li&gt;
+&lt;li&gt;高耗能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;认证&#34;&gt;认证&lt;/h5&gt;
+&lt;p&gt;HTTP 的认证方式&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BASIC 认证
+&lt;ul&gt;
+&lt;li&gt;发送请求，401， 用户ID和密码以 Base64 返回&lt;/li&gt;
+&lt;li&gt;认证成功返回200&lt;/li&gt;
+&lt;li&gt;被盗可能性极高，并且难以注销&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DIGEST 认证
+&lt;ul&gt;
+&lt;li&gt;发送质询码。从而改变加密后的文字&lt;/li&gt;
+&lt;li&gt;无法防止用户伪装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id=&#34;ssl-客户端认证&#34;&gt;SSL 客户端认证&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
