@@ -5,9 +5,9 @@
     <link>http://www.zhaojuntao.site/post/</link>
       <atom:link href="http://www.zhaojuntao.site/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 16 Feb 2020 11:36:24 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Feb 2020 11:36:24 +0800</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>http://www.zhaojuntao.site/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>http://www.zhaojuntao.site/post/</link>
     </image>
@@ -649,10 +649,8 @@
       <guid>http://www.zhaojuntao.site/post/kaggle/</guid>
       <description>&lt;h4 id=&#34;dogs-vs-cats&#34;&gt;Dogs Vs Cats&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://github.com/ypwhs/dogs_vs_cats&#34; title=&#34;Dog Vs Cat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition&#34; title=&#34;competition&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Competition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ypwhs/dogs_vs_cats&#34; title=&#34;Dog Vs Cat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition&#34; title=&#34;competition&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Competition&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Notes
 &lt;ul&gt;
 &lt;li&gt;os.symlink softlink (quick access)&lt;/li&gt;
@@ -661,8 +659,7 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;titanic&#34;&gt;Titanic&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://www.kaggle.com/c/titanic/notebooks&#34; title=&#34;note book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Codes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/c/titanic/notebooks&#34; title=&#34;note book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Codes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -802,8 +799,7 @@
       <pubDate>Thu, 13 Feb 2020 11:37:20 +0800</pubDate>
       <guid>http://www.zhaojuntao.site/post/hugo-book/</guid>
       <description>&lt;p&gt;After experiment on the gitbook, docify, we still choose hugo for documentation.
-The scene use for documentation is 
-&lt;a href=&#34;https://themes.gohugo.io/hugo-book/&#34; title=&#34;Hogo Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;book&lt;/a&gt;.&lt;/p&gt;
+The scene use for documentation is &lt;a href=&#34;https://themes.gohugo.io/hugo-book/&#34; title=&#34;Hogo Book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;book&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;create-site&#34;&gt;Create Site&lt;/h3&gt;
 &lt;p&gt;Create site and add theme&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo new site mydocs; cd mydocs
