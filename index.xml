@@ -13,6 +13,24 @@
     </image>
     
     <item>
+      <title>TransHome</title>
+      <link>http://www.zhaojuntao.site/project/transhome/</link>
+      <pubDate>Mon, 26 Oct 2020 23:09:02 +0800</pubDate>
+      <guid>http://www.zhaojuntao.site/project/transhome/</guid>
+      <description>&lt;p&gt;Transhome is a game that i developed in the GGJ 2019. Which is contructed by the engine Construct3. The game featured a adventure of an astraunaut with four different type of gun, each has its special character and can defeat the enemies in the way or just change the environment. However, things seems to be not so easy for the spaceman&amp;rsquo;s adventure.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Game-Shadow Tiker</title>
+      <link>http://www.zhaojuntao.site/project/shadow-tiker/</link>
+      <pubDate>Mon, 26 Oct 2020 23:02:24 +0800</pubDate>
+      <guid>http://www.zhaojuntao.site/project/shadow-tiker/</guid>
+      <description>&lt;p&gt;Shadow Tiker is the game built in Lilith Competition with Davinci Engine and Lua language. The operator can control the vehicles to devide and merge to rank a higher score. It basically a musical game.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CloudArcade: A Blockchain Empowered Cloud Gaming System</title>
       <link>http://www.zhaojuntao.site/publication/cloud-arcade/</link>
       <pubDate>Sat, 24 Oct 2020 13:38:15 +0800</pubDate>
