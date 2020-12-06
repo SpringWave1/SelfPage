@@ -43,71 +43,6 @@
   </url>
   
   <url>
-    <loc>http://www.zhaojuntao.site/post/</loc>
-    <lastmod>2020-02-16T11:36:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/post/web4/</loc>
-    <lastmod>2020-02-16T11:36:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/categories/</loc>
-    <lastmod>2020-02-14T14:44:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/tags/</loc>
-    <lastmod>2020-02-14T14:44:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/post/web3/</loc>
-    <lastmod>2020-02-14T14:44:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-02-14T14:44:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-02-14T14:44:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/tags/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2020-02-14T14:44:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/post/web2/</loc>
-    <lastmod>2020-02-13T22:38:04+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/post/kaggle/</loc>
-    <lastmod>2020-02-13T21:18:16+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/post/web/</loc>
-    <lastmod>2020-02-13T12:42:48+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/post/hugo-book/</loc>
-    <lastmod>2020-02-13T11:37:20+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhaojuntao.site/post/hugo-use/</loc>
-    <lastmod>2020-02-13T10:41:29+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.zhaojuntao.site/privacy/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
@@ -126,7 +61,19 @@
   </url>
   
   <url>
+    <loc>http://www.zhaojuntao.site/categories/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.zhaojuntao.site/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/post/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.zhaojuntao.site/tags/</loc>
   </url>
   
 </urlset>
