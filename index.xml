@@ -5,12 +5,21 @@
     <link>http://www.zhaojuntao.site/</link>
       <atom:link href="http://www.zhaojuntao.site/index.xml" rel="self" type="application/rss+xml" />
     <description>Tony Zhao&#39;s Page</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 06 Dec 2020 21:35:56 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Mar 2021 20:18:56 +0800</lastBuildDate>
     <image>
       <url>http://www.zhaojuntao.site/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Tony Zhao&#39;s Page</title>
       <link>http://www.zhaojuntao.site/</link>
     </image>
+    
+    <item>
+      <title>VRShoot</title>
+      <link>http://www.zhaojuntao.site/project/vrshoot/</link>
+      <pubDate>Fri, 12 Mar 2021 20:18:56 +0800</pubDate>
+      <guid>http://www.zhaojuntao.site/project/vrshoot/</guid>
+      <description>&lt;p&gt;This is my first VR game made in the Course CSC4240 in NUS. Enables a player to teleport and grab guns to shoot the zombies. The code is built upon Unity using the Oculus VR toolkit (OVR).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>My Music</title>
