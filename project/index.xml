@@ -5,19 +5,20 @@
     <link>http://www.zhaojuntao.site/project/</link>
       <atom:link href="http://www.zhaojuntao.site/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Mar 2021 20:18:56 +0800</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 15:58:56 +0800</lastBuildDate>
     <image>
-      <url>http://www.zhaojuntao.site/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>http://www.zhaojuntao.site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>http://www.zhaojuntao.site/project/</link>
     </image>
     
     <item>
-      <title>VRShoot</title>
-      <link>http://www.zhaojuntao.site/project/vrshoot/</link>
-      <pubDate>Fri, 12 Mar 2021 20:18:56 +0800</pubDate>
-      <guid>http://www.zhaojuntao.site/project/vrshoot/</guid>
-      <description>&lt;p&gt;This is my first VR game made in the Course CSC4240 in NUS. Enables a player to teleport and grab guns to shoot the zombies. The code is built upon Unity using the Oculus VR toolkit (OVR).&lt;/p&gt;
+      <title>CookingMasterSimulator</title>
+      <link>http://www.zhaojuntao.site/project/cookingmastersimulator/</link>
+      <pubDate>Sat, 01 May 2021 15:58:56 +0800</pubDate>
+      <guid>http://www.zhaojuntao.site/project/cookingmastersimulator/</guid>
+      <description>&lt;p&gt;Cooking Master Simulator is a fun and educational VR Cooking game that aims to help novice cooks kickstart their cooking journey in a learner-friendly environment and learn about Asian Cuisine.&lt;/p&gt;
+&lt;p&gt;Set in a virtual kitchen, players can choose from various recipes and follow a set to directions to complete the dish. By exploring different recipes in a gamified kitchen setting, we hope to familiarize players with the navigation of a kitchen, the main methodologies of cooking and important steps of a recipe, all while having fun and reducing waste.&lt;/p&gt;
 </description>
     </item>
     
